@@ -1,0 +1,9 @@
+.nav {
+    display: flex;
+    gap: 16px;
+    padding: 32px;
+}
+
+.nav p {
+    font-size: 1rem;
+}
