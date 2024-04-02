@@ -5,38 +5,48 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Font config */
+* {
+  font-family: "Visby" !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "Visby";
+  font-weight: 100;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-Thin.otf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Visby";
+  font-weight: 200;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-Light.otf);
 }
-
-.card {
-  padding: 2em;
+@font-face {
+  font-family: "Visby";
+  font-weight: 300;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-Regular.otf);
 }
-
-.read-the-docs {
-  color: #888;
+@font-face {
+  font-family: "Visby";
+  font-weight: 400;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-Medium.otf);
+}
+@font-face {
+  font-family: "Visby";
+  font-weight: 500;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-DemiBold.otf);
+}
+@font-face {
+  font-family: "Visby";
+  font-weight: 600;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-Bold.otf);
+}
+@font-face {
+  font-family: "Visby";
+  font-weight: 700;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-ExtraBold.otf);
+}
+@font-face {
+  font-family: "Visby";
+  font-weight: 800;
+  src: local("Visby"), url(./assets/fonts/VisbyCF-Heavy.otf);
 }
